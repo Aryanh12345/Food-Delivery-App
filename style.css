@@ -9,17 +9,16 @@
 }
 
 :root{ 
-    --lead: #ffffff;
+    /* --lead: #ffffff;
     --pure-white: #4c4939;
     --hint-yellow: #49391f;
     --gold-finger: #bb7204;
-    --eye-ball: #241e21;
-    --font: #F1E6D0;
-    /* --gold-finger: #F2BD12; */
-    /* --pure-white: #fff */
-    /* --hint-yellow:#FCF1CC; */
-    /* --lead: #212121; */
-    /* --eye-ball: #FFFDF7; */
+    --eye-ball: #241e21; */
+    --gold-finger: #F2BD12; 
+    --pure-white: #fff;
+    --hint-yellow:#FCF1CC;
+    --lead: #212121;
+    --eye-ball: #FFFDF7;
 }
 
 body{
@@ -166,7 +165,7 @@ h1 span{
 }
 p{
     font-size: 1.25rem;
-    color: var(--font);
+    color: grey;
     line-height: 1.8rem;
     font-weight: 400;
 }
@@ -479,7 +478,7 @@ input[type="email"]:focus{
     color: var(--lead);
 }
 .footer-link{
-    color: var(--font);
+    color: grey;
     font-size: 1.1rem;
     transition: .3s ease-in-out;
 }
